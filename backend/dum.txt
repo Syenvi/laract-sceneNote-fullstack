@@ -1,0 +1,23 @@
+App\Models\Movie::create([
+        'title'=>'Soul Land',
+        'excerpt'=>'soul-land',
+        'image'=>'https://i.pinimg.com/236x/b5/11/b1/b511b166881179e968ec848a2e78f4c4.jpg'
+    ])
+
+App\Models\Movie::create([
+        'title'=>'Battle Through the Heavens',
+        'excerpt'=>'battle-through-the-heavens',
+        'image'=>'https://i.pinimg.com/236x/a3/c2/f1/a3c2f13061a16f7cd7e252094e7f18af.jpg'
+    ])
+
+App\Models\MovieEpisode::create([
+    'movie_id'=>1,
+    'episode'=>'2',
+    'video'=>'https://www.dailymotion.com/embed/video/x8m0gmb'
+])
+
+App\Models\MovieEpisodeDetail::create([
+    'episode_id'=>1,
+    'note'=>'Ada Medusa',
+    'image'=>'https://i.pinimg.com/236x/50/70/f5/5070f5efdcbb8afa272e197fe74d4cc5.jpg'
+])
